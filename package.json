@@ -1,0 +1,17 @@
+{
+  "name": "smart-student-hub",
+  "version": "1.0.0",
+  "description": "Smart Student Hub - notes, past papers, quizzes, online lessons, assignments and study tools for students.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
